@@ -10,13 +10,22 @@ For code repository visit [Mare Nostrum LAB GitHub](https://github.com/Mare-Nost
 
 1. Go to the [Thesaurus](https://pac.cenagis.edu.pl/wiki) main page.
 1. Click on the desired dictionary (e.g., Provenance).
+
     ![Select dictionary](quickstart/select-dictionary.png)
+
 1. Navigate to the record of interest (e.g., R'as al-Basit).
+
     ![Navigate to the record](quickstart/navigate-to-record.png)
-1. (optional) Inspect relations between available items.
+
+    ???+ note
+        At this point, user can inspect relations between available items.
+
 1. Inspect a record of interest by clicking on the internal blue identifier of a subject.
+
     ![Inspect a record](quickstart/inspect-record.png)
+
 1. After clicking, Thesaurus opens the site associated with the selected record.
+
     ![Site associated with record](quickstart/associated-site.png)
 
 ---
@@ -28,13 +37,16 @@ For code repository visit [Mare Nostrum LAB GitHub](https://github.com/Mare-Nost
 
     ???+ note "Login before editing"
 
-        Editing contents requires prior logging in. Further instructions here.
+        Editing contents requires prior logging in. Further instructions [here](account-management/#login-to-the-account).
 
     ![Press edit button](quickstart/press-edit-button.png)
 
 1. Modify contents and press "save" after completing the change.
+    
     ![Modify contents](quickstart/modify-contents.png)
+
 1. Wait for changes to be saved which is indicated by the return of "edit" button.
+
     ![Wait for change to be saved](quickstart/wait-for-change-save.png)
 
 

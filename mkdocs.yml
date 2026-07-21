@@ -25,6 +25,7 @@ theme:
 
 nav:
   - Quick Start: index.md
+  - Account Management: account-management.md
 
 markdown_extensions:
   - admonition
