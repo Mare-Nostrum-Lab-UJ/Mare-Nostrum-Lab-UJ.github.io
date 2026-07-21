@@ -1,4 +1,4 @@
-site_name: Mare Nostrum
+site_name: Mare Nostrum LAB
 theme:
   name: material
   language: en
@@ -14,14 +14,19 @@ theme:
       accent: orange
       toggle:
         icon: material/brightness-7
-        name: Ciemny motyw
+        name: Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: orange
       accent: orange
       toggle:
         icon: material/brightness-4
-        name: Jasny motyw
+        name: Light mode
 
 nav:
-  - Introduction: index.md
+  - Quick Start: index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
