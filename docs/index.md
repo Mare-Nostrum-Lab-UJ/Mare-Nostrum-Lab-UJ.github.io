@@ -37,7 +37,7 @@ For code repository visit [Mare Nostrum LAB GitHub](https://github.com/Mare-Nost
 
     ???+ note "Login before editing"
 
-        Editing contents requires prior logging in. Further instructions [here](account-management/#logging-in-to-the-account).
+        Editing contents requires prior logging in. Further instructions [here](account-management.md/#logging-in-to-the-account).
 
     ![Press edit button](quickstart/press-edit-button.png)
 
@@ -84,7 +84,7 @@ For code repository visit [Mare Nostrum LAB GitHub](https://github.com/Mare-Nost
         You will be redirected to the Mare Nostrum Wiki login page, and then to the OAuth page, where authorization is granted by clicking the "Allow" button at the bottom of the message.
 
     ???+ note
-        OAuth authorization requires prior [login](account-management/#logging-in-to-the-account).
+        OAuth authorization requires prior [login](account-management.md/#logging-in-to-the-account).
 
 3. **Filling in Data**
 

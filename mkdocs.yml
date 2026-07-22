@@ -26,6 +26,7 @@ theme:
 nav:
   - Quick Start: index.md
   - Account Management: account-management.md
+  - Mare Nostrum Thesaurus: mare-nostrum-thesaurus.md
 
 markdown_extensions:
   - admonition
