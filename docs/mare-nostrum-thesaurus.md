@@ -80,7 +80,7 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 ### Manually Adding a New Item
 
 ???+ note "Log in before adding"
-    Adding a new item requires [loggin in](account-management.md/#logging-in-to-the-account).
+    Adding a new item requires prior [logging in](account-management.md/#logging-in-to-the-account).
 
 1. Select the "New item" option from the Main page.
 
@@ -116,10 +116,31 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
         ???+ note "Matching types"
             Ensure that the added value type matches the property type.
 
-    - 3 - save the statement for the item.
+    - 3 - Save the statement for the item.
 
     ![Add statement elements](add-statement-elements.png)
 
 1. After saving the statement, you can assign another value to it ("add value") or create a new statement poining to the item ("add statement").
 
     ![Further connections](add-value-add-statement.png)
+
+---
+
+### Editing an Existing Item
+
+1. [Browse dictionaries](#browsing-dictionaries) for the item of interest (e.g., R'as al Basit).
+
+1. Click on the "edit" button with pencil icon.
+
+    ???+ note "Log in before editing"
+        Editing an item requires prior [logging in](account-management.md/#logging-in-to-the-account).
+
+    ![Press edit button](mare-nostrum-thesaurus/press-edit-button.png)
+
+1. Modify contents and press "save" after completing the change.
+    
+    ![Modify contents](mare-nostrum-thesaurus/modify-contents.png)
+
+1. Wait for changes to be saved which is indicated by the return of "edit" button.
+
+    ![Wait for change to be saved](mare-nostrum-thesaurus/wait-for-change-save.png)
