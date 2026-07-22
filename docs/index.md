@@ -37,7 +37,7 @@ For code repository visit [Mare Nostrum LAB GitHub](https://github.com/Mare-Nost
 
     ???+ note "Login before editing"
 
-        Editing contents requires prior logging in. Further instructions [here](account-management/#login-to-the-account).
+        Editing contents requires prior logging in. Further instructions [here](account-management/#logging-in-to-the-account).
 
     ![Press edit button](quickstart/press-edit-button.png)
 
