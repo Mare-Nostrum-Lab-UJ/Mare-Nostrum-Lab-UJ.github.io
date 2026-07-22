@@ -30,7 +30,7 @@ For code repository visit [Mare Nostrum LAB GitHub](https://github.com/Mare-Nost
 
 ---
 
-### Editing contents
+### Editing Contents
 
 1. [Browse Thesaurus](#browsing-thesaurus) for subject.
 1. Click on the "edit" button with pencil icon.
@@ -68,6 +68,39 @@ For code repository visit [Mare Nostrum LAB GitHub](https://github.com/Mare-Nost
         **User cannot modify:**
         
         - Item Identifier (Q followed by a number).
+
+---
+
+### Adding New Content
+1. **Selecting the Target Dictionary**
+
+    On the "Main page" in the "Dictionaries" section, there are links to create a new item formatted as "New" alongside the English name of the dictionary.
+
+2. **Login and Tool Authorization**
+
+    The tool requires authorization, which is initiated via the "Log in to save!" button in the top right corner of the form.
+
+    ???+ note
+        You will be redirected to the Mare Nostrum Wiki login page, and then to the OAuth page, where authorization is granted by clicking the "Allow" button at the bottom of the message.
+
+    ???+ note
+        OAuth authorization requires prior [login](account-management/#logging-in-to-the-account).
+
+3. **Filling in Data**
+
+    - **Labels (required)** – the name of the item being added in English,
+
+    - **Also known as** – alternative names for the item,
+
+    - **Descriptions** – a short description of the item to distinguish it from others,
+
+    - **Subclass of** – the parent element for the item being added.
+
+4. **Saving**
+
+    Once filled out correctly, the "Create new item" button will appear at the bottom of the page. This initiates saving the item to the database.
+
+    During the save process, a "Creating item..." message will be displayed. Upon successful creation, the "Last items created" section will appear at the bottom of the page with a link to the newly added item.
 
 ---
 
