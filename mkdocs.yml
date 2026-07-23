@@ -28,7 +28,8 @@ nav:
   - Account Management: account-management.md
   - Creating a New Record in the Thesaurus - Cradle: cradle.md
   - Mare Nostrum Thesaurus - Management: mare-nostrum-thesaurus.md
-
+  - Appendices: appendices.md
+  
 markdown_extensions:
   - admonition
   - pymdownx.details
