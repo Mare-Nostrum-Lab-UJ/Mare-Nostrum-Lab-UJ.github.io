@@ -30,7 +30,7 @@ Dictionary management is provided through four complementary components (click t
 
     ![Cradle (Toolforge) logo](appendices/toolforge-logo.png){ width="100" style="display: block; margin: 0 auto;" }
 
-1. **[Wikibase Query Service (WBQS)](https://pac.cenagis.edu.pl/query/)** - a tool for advanced searching of Wikidata Mare Nostrum using SPARQL queries.
+1. **[Wikibase Query Service (WBQS)](https://pac.cenagis.edu.pl/query/)** - a tool for advanced searching of Mare Nostrum Thesaurus using SPARQL queries.
 
     ![Wikibase Query Service logo](appendices/wbqs-logo.png){ width="100" style="display: block; margin: 0 auto;" }
 
