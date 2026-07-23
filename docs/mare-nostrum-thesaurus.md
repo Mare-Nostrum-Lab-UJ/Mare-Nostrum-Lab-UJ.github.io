@@ -80,7 +80,7 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 ### Manually Adding a New Item
 
 ???+ note "Log in before adding"
-    Adding a new item requires prior [logging in](account-management.md/#logging-in-to-the-account).
+    Adding a new item requires [logging in](account-management.md/#logging-in-to-the-account) first.
 
 1. Select the "New item" option from the Main page.
 
@@ -118,11 +118,11 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 
     - 3 - Save the statement for the item.
 
-    ![Add statement elements](add-statement-elements.png)
+    ![Add statement elements](mare-nostrum-thesaurus/add-statement-elements.png)
 
 1. After saving the statement, you can assign another value to it ("add value") or create a new statement poining to the item ("add statement").
 
-    ![Further connections](add-value-add-statement.png)
+    ![Further connections](mare-nostrum-thesaurus/add-value-add-statement.png)
 
 ---
 
@@ -133,7 +133,7 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 1. Click on the "edit" button with pencil icon.
 
     ???+ note "Log in before editing"
-        Editing an item requires prior [logging in](account-management.md/#logging-in-to-the-account).
+        Editing an item requires [logging in](account-management.md/#logging-in-to-the-account) first.
 
     ![Press edit button](mare-nostrum-thesaurus/press-edit-button.png)
 
@@ -144,3 +144,31 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 1. Wait for changes to be saved which is indicated by the return of "edit" button.
 
     ![Wait for change to be saved](mare-nostrum-thesaurus/wait-for-change-save.png)
+
+---
+
+### Deleting an Item
+
+???+ note "Retrievable Data Loss"
+    This action is not permanent, and the data can be undeleted.
+
+???+ note "Log in before deleting"
+    Deleting an item requires [logging in](account-management.md/#logging-in-to-the-account) first.
+
+1. [Browse dictionaries](#browsing-dictionaries) to find the item you want to delete.
+
+2. (optional) Make sure that the "Tools" pane is displayed on the right side of the selected page. If not, find the "Tools" menu in the upper-right corner of the main content area, expand it, and select the "move to sidebar" option.
+
+    ![Expand tools pane](mare-nostrum-thesaurus/expand-tools-pane.png)
+
+3. In the "Actions" section of the "Tools" pane, select "Delete".
+
+    ![Delete item button](mare-nostrum-thesaurus/delete-item-button.png)
+
+4. If needed, select a deletion reason from the dropdown menu and provide additional details in the text field (if not, leave the default values). Then, click "Delete page" to remove the item from the Thesaurus.
+
+    ![Delete page](mare-nostrum-thesaurus/delete-page.png)
+
+5. After deleting, a page will display a confirmation message that the action was successful.
+
+    ![alt text](mare-nostrum-thesaurus/deletion-confirmation.png)
