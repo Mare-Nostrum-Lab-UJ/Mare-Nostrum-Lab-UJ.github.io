@@ -40,7 +40,16 @@ Dictionary management is provided through four complementary components (click t
 
 ---
 
-## Division of responsibilities between components
+## Division of Responsibilities Between Components
+
+The table below presents a summary of the division of responsibilities for the tools described in the previous section.
+
+| Tool | Responsibility | Provided Features |
+| :--- | :--- | :--- |
+| **Mare Nostrum Thesaurus** | A dictionary database that stores data in Linked Data format as an advanced network of interconnections. | - Browsing data<br>- Displaying hierarchical data<br>- Manually adding new dictionary values |
+| **Cradle** | A visual graphical editor supporting the addition of new records to the dictionary database via an intuitive interface with a predefined set of required properties for a given thematic set. | - Adding new dictionary values in accordance with the established data model<br>- Adding hierarchically dependent dictionary values |
+| **Wikibase Query Service** | An advanced tool for multi-level searching of the dictionary database. Usage requires knowledge of SPARQL syntax as well as the relationships and structures within the Wikidata Mare Nostrum database. | - Browsing data<br>- Thematic filtering of database content<br>- Creating data visualizations |
+| **QuickStatements** | A tool for batch editing and bulk importing data into the dictionary database. It allows executing sequence-based commands (CSV/V1 formats) to automate large-scale data modifications. | - Bulk importing and creating new records<br>- Batch adding, modifying, or removing statements and properties<br>- Automated processing of structured datasets |
 
 ---
 
