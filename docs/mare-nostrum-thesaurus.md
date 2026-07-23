@@ -1,4 +1,4 @@
-# Mare Nostrum Thesaurus
+# Mare Nostrum Thesaurus - Management
 
 This section is dedicated to explain all specific procedures which allow searching, modifying and deleting informations from the Mare Nostrum Thesaurus.
 

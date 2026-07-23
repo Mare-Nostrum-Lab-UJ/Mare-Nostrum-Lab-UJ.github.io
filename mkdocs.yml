@@ -26,7 +26,8 @@ theme:
 nav:
   - Quick Start: index.md
   - Account Management: account-management.md
-  - Mare Nostrum Thesaurus: mare-nostrum-thesaurus.md
+  - Creating a New Record in the Thesaurus - Cradle: cradle.md
+  - Mare Nostrum Thesaurus - Management: mare-nostrum-thesaurus.md
 
 markdown_extensions:
   - admonition

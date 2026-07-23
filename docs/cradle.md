@@ -1,0 +1,1 @@
+# Creating a New Record in the Thesaurus - Cradle
