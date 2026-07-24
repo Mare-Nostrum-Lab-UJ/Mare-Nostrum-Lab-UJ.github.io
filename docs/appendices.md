@@ -125,4 +125,29 @@ The table below presents the properties used in the Mare Nostrum Thesaurus dicti
 
 ---
 
-## Important design decisions regarding data modeling
+## Important Design Decisions Regarding Data Modeling
+
+1. **Amphora Type, Vessel Form, Sub-category, Morphology, State of Preservation and Surface Treatment Dictionaries**
+
+    These dictionaries were modeled exclusively using **[subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2)**, where the parent item represents the dictionary itself and the child item represents a specific dictionary value.
+
+1. **Vessel Part, Harris Matrix Relationships, Trench Parameters, Visual Item Metadata, Linguistic Object Metadata**
+    These dictionaries were modeled using **[subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2)** as hierarchical structures. The parent item represents the dictionary, the first-level child item represents a general "family" of concepts (e.g., **"lower part"**), and the second-level child item represents a specific type (e.g., **"base"**, **"sherd"**).
+
+    ???+ note
+        This approach does not exclude adding a standalone item without a "concept family" at the first child level (e.g., **"almost complete"**).
+
+1. **Provenance Dictionary**
+    This dictionary was modeled using **[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)** on every level of "concept family" (e.g., **"Asia Minor"** is part of **"provenance"** and **"Phocaea"** is part of **"Asia Minor"**).
+
+1. **Chronology Dictionary**
+    This dictionary was modeled using **[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)** similarly to point 3. However, it requires distinguishing between two conceptual meanings:
+    
+    - Parts within a single period (e.g., **"ER I"**, **"ER II"**, **"ER III"** as parts of **"ER"**)
+    - Parts of a period spanning two epochs (e.g., **"ER"** as part of **"LH/ER"**).
+
+    Both contexts use the same property (**[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)**), though its semantic interpretation differs slightly.
+
+    The figure below provides a graphical exaplanation of the terms used in this section to describe hierarchy nesting levels.
+
+    ![Hierarchy Nesting Levels](appendices/hierarchy-nesting-levels.png)
