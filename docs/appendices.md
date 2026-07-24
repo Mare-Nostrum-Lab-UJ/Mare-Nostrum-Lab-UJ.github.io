@@ -10,7 +10,7 @@ In this section, you can find useful information about:
 
 - [Object feature storage structure](#object-feature-storage-structure)
 
-- [Properties used in the hierarchical dictionaries](#properties-used-in-hierarchical-dictionaries)
+- [Properties in hierarchical dictionaries](#properties-in-hierarchical-dictionaries)
 
 - [Inverse properties](#inverse-properties)
 
@@ -87,7 +87,19 @@ Figure below presents a graphical example of the feature storage structure.
 
 ---
 
-## Properties used in hierarchical dictionaries
+## Properties in Hierarchical Dictionaries
+
+- **[subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2)** - indicates that one object is a subclass or subset of another. It sould not be confused with *instance of (P1)*.
+
+    *Example: A volcano is a **subclass of** mountain; Mount Everest is an **instance of** mountain.*
+
+- **[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)** - indicates that one item is an integral part of another. This property is mainly used in the *provenance* and *chronology* dictionaries.
+
+Additional properties used in the dictionaries, but **not displayed** in the hierarchical structure:
+
+- **[modified version of (P18)](https://pac.cenagis.edu.pl/wiki/Property:P18)** - indicates that one object is a modified version of another, yet the second object cannot be unambiguously considered identical to the first.
+
+- **[said to be the same as (P17)](https://pac.cenagis.edu.pl/wiki/Property:P17)** - used when there is a need to add two independent items representing the same object under different names, provided the user does not want to declare the second entity as an alias of the first.
 
 ---
 
