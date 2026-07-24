@@ -103,7 +103,25 @@ Additional properties used in the dictionaries, but **not displayed** in the hie
 
 ---
 
-## Inverse properties
+## Inverse Properties
+
+When manually adding items, it is good practice to add an inverse relationship pointing from the parent item to the child item. Defining this connection is important for efficient navigation between item pages within the hierarchy.
+
+???+ note "Adding a new Item with Cradle"
+    Cradle is configured to automatically add a specific inverse property of the declared property.
+
+*Example: If you are adding the item **"beige"**, which is a [subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2) **"hierarchical color of the soil"**, you should also define the property [superclass of (P11)](https://pac.cenagis.edu.pl/wiki/Property:P11) **"beige"** for the **"hierarchical color of the soil"** item.*
+
+![Inverse Properties Example](appendices/inverse-properties.png)
+
+The table below presents the properties used in the Mare Nostrum Thesaurus dictionaries along with their inverses.
+
+| Property | Inverse | Occurrence |
+| :--- | :--- | :--- |
+| **[subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2)** | **[superclass of (P11)](https://pac.cenagis.edu.pl/wiki/Property:P11)** | all dictionaries excluding **"provenance"** and **"chronology"** |
+| **[modified version of (P18)](https://pac.cenagis.edu.pl/wiki/Property:P18)** | **[has modification(s) (P19)](https://pac.cenagis.edu.pl/wiki/Property:P19)** | mainly **"sub-category"** |
+| **[said to be the same as (P17)](https://pac.cenagis.edu.pl/wiki/Property:P17)** | **[said to be the same as (P17)](https://pac.cenagis.edu.pl/wiki/Property:P17)** | all dictionaries |
+| **[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)** | **[has part(s) (P21)](https://pac.cenagis.edu.pl/wiki/Property:P21)** | **"provenance"** and **"chronology"** |
 
 ---
 
