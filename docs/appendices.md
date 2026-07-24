@@ -67,7 +67,23 @@ The table below presents a summary of the division of responsibilities for the t
 
 ---
 
-## Object feature storage structure
+## Object Feature Storage Structure
+
+Data concerning items (Q) in Mare Nostrum Thesaurus is stored as triplets: item (Q) - property (P) - value, where:
+
+- **Item** - indicates the identifier of the entity it refers to.
+
+- **Property** - defines a relationship or feature of the given item. Each property has an assigned data type that dictates what values can be entered. The list of available properties in the Mare Nostrum Thesaurus project is available [here](https://pac.cenagis.edu.pl/wiki/Special:ListProperties).
+
+- **Value** - represents the actual data associated with the item (it can be another item (Q), a string, a date and time, or geographic point coordinates in the WGS84 system, among others).
+
+Figure below presents a graphical example of the feature storage structure.
+
+*(blue rectangle - **Item**; arrows - **Properties**; green rectangles - **Values**)*
+
+![Object Feature Structure Storage](appendices/feature-structure-storage.png)
+
+*Image source: [Wikidata Query Service Tutorial](https://wdqs-tutorial.toolforge.org/index.php/introduction/the-structure-of-wikidata/)*
 
 ---
 
