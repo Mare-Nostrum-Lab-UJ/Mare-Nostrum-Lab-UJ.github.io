@@ -70,7 +70,7 @@ Example form showing described above elements and its dictionary-specific fields
 1. When the required fields are complete, the **Create new item** button appears at the bottom of the form.
 
     ???+ tip "Button not visible?"
-        If required fields are filled but **Create new item** still does not appear, click anywhere outside the currently focused field to refresh the form state.
+        If required fields are filled, but **Create new item** still does not appear, click anywhere outside the currently focused field to refresh the form state.
 
     ![Completed form with Create new item button visible](cradle/createnewitem.png)
 
