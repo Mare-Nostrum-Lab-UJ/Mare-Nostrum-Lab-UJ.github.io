@@ -104,6 +104,26 @@ To access the code repository visit [Mare Nostrum LAB GitHub](https://github.com
 
 ---
 
+### Downloading Content
+
+1. [Browse Thesaurus](#browsing-thesaurus) to find the desired subjects.
+
+2. Select the checkboxes next to them.
+
+    ???+ note
+        To select all values, check the parent item.
+
+    ![Select checkboxes](quickstart/select-checkboxes.png)
+
+3. Move to the top of the page and click **"Download selected as Arches format"**.
+
+    ???+ note
+        As a result, a `wikidata_export.rdf` file will be downloaded. You can import it to Arches.
+
+    ![Download selected as Arches format](quickstart/download-selected-as-arches-format.png)
+
+---
+
 ### Elements of the Item page
 
 ![alt text](quickstart/elements-of-page.png)
