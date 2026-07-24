@@ -21,9 +21,9 @@ Cradle can only save new items after you log in and grant it permission to edit 
 
     ![Cradle form with Log in to save highlighted](cradle/logintosave.png)
 
-1. Sign in with your Mare Nostrum Wiki account.
+1. Sign in with your Mare Nostrum Thesaurus account.
 
-    ![Mare Nostrum Wiki login page](cradle/loginpage.png)
+    ![Mare Nostrum Thesaurus login page](cradle/loginpage.png)
 
     ???+ note "Account required"
         If you are already logged in, you will not see the login page.
