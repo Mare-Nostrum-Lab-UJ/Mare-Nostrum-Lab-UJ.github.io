@@ -24,12 +24,20 @@ theme:
         name: Light mode
 
 nav:
-  - Quick Start: index.md
-  - Account Management: account-management.md
-  - Creating a New Record in the Thesaurus - Cradle: cradle.md
-  - Mare Nostrum Thesaurus - Management: mare-nostrum-thesaurus.md
-  - Appendices: appendices.md
-  
+  - About Project: index.md
+  - Arches Plugins:
+    - Quick Start: arches-plugins/quickstart.md
+  - Mare Nostrum Thesaurus:
+    - Quick Start: mare-nostrum-thesaurus/quickstart.md
+    - Account Management: mare-nostrum-thesaurus/account-management.md
+    - Creating a New Record in the Thesaurus - Cradle: mare-nostrum-thesaurus/cradle.md
+    - Mare Nostrum Thesaurus - Management: mare-nostrum-thesaurus/mare-nostrum-thesaurus-management.md
+    - Appendices: mare-nostrum-thesaurus/appendices.md
+  - Ontology Viewer:
+    - Quick Start: ontology-viewer/quickstart.md
+  - Recogito Studio:
+    - Quick Start: recogito-studio/quickstart.md
+    
 markdown_extensions:
   - attr_list
   - admonition

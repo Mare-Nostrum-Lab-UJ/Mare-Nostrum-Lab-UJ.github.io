@@ -48,11 +48,11 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 
 1. If you know the specific record you are looking for, enter it in the dedicated panel located at the top of the interface.
 
-    ![Specific Record](mare-nostrum-thesaurus/specific-record.png)
+    ![Specific Record](mare-nostrum-thesaurus-management/specific-record.png)
 
 2. Clicking on an item redirects you to its content, displaying all defined properties.
 
-    ![Specific Record Page](mare-nostrum-thesaurus/specific-record-page.png)
+    ![Specific Record Page](mare-nostrum-thesaurus-management/specific-record-page.png)
 
 ---
 
@@ -63,15 +63,15 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 
 1. Select a [dictionary](#available-data) of interest.
 
-    ![Select a dictionary of interest](mare-nostrum-thesaurus/select-dictionary-from-thesaurus.png)
+    ![Select a dictionary of interest](mare-nostrum-thesaurus-management/select-dictionary-from-thesaurus.png)
 
 1. After selecting, an expandable view of the object hierarchy linked to the parent item is displayed (e.g., vessel part).
 
-    ![Expandable view](mare-nostrum-thesaurus/drop-down-list.png)
+    ![Expandable view](mare-nostrum-thesaurus-management/drop-down-list.png)
 
 1. To display a specific dictionary value, click on the blue **"Q"** identifier followed by a corresponding number.
 
-    ![Inspect item](mare-nostrum-thesaurus/inspect-item.png)
+    ![Inspect item](mare-nostrum-thesaurus-management/inspect-item.png)
 
 ---
 
@@ -84,22 +84,22 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 
 1. Select the **"New item"** option from the Main page.
 
-    ![New item option](mare-nostrum-thesaurus/new-item-button.png)
+    ![New item option](mare-nostrum-thesaurus-management/new-item-button.png)
 
 1. Enter the Label and Description. If aliases exist, they should also be provided here. Complete the process by clicking the **"Create"** button.
 
     ???+ note "Language"
         Pay close attention to the Language field while adding an item, as an unintentional change may result in incorrect value assignment.
 
-    ![Create a new Item](mare-nostrum-thesaurus/label-description-aliases.png)
+    ![Create a new Item](mare-nostrum-thesaurus-management/label-description-aliases.png)
 
 1. After creating the item, its page will appear on the screen, allowing you to verify the accuracy of the entered data and perform potential edits by clicking the **"edit"** button.
 
-    ![Edit a new item](mare-nostrum-thesaurus/edit-new-item.png)
+    ![Edit a new item](mare-nostrum-thesaurus-management/edit-new-item.png)
 
 1. If the label, description, and aliases are correct, you typically need to define statements pointing to the properties (P) of the item. This is done using the **"add statements"** button.
 
-    ![Add statement to the item](mare-nostrum-thesaurus/add-statement-new-item.png)
+    ![Add statement to the item](mare-nostrum-thesaurus-management/add-statement-new-item.png)
 
 1. To add a new statement, follow steps below:
     
@@ -118,11 +118,11 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 
     - 3 - Save the statement for the item.
 
-    ![Add statement elements](mare-nostrum-thesaurus/add-statement-elements.png)
+    ![Add statement elements](mare-nostrum-thesaurus-management/add-statement-elements.png)
 
 1. After saving the statement, you can assign another value to it ("add value") or create a new statement poining to the item (**"add statement"**).
 
-    ![Further connections](mare-nostrum-thesaurus/add-value-add-statement.png)
+    ![Further connections](mare-nostrum-thesaurus-management/add-value-add-statement.png)
 
 ---
 
@@ -135,15 +135,15 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
     ???+ note "Log in before editing"
         Editing an item requires [logging in](account-management.md/#logging-in-to-the-account) first.
 
-    ![Press edit button](mare-nostrum-thesaurus/press-edit-button.png)
+    ![Press edit button](mare-nostrum-thesaurus-management/press-edit-button.png)
 
 1. Modify contents and press **"save"** after completing the change.
     
-    ![Modify contents](mare-nostrum-thesaurus/modify-contents.png)
+    ![Modify contents](mare-nostrum-thesaurus-management/modify-contents.png)
 
 1. Wait for changes to be saved which is indicated by the reappearance of the **"edit"** button.
 
-    ![Wait for change to be saved](mare-nostrum-thesaurus/wait-for-change-save.png)
+    ![Wait for change to be saved](mare-nostrum-thesaurus-management/wait-for-change-save.png)
 
 ---
 
@@ -159,16 +159,16 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 
 2. (optional) Make sure that the **"Tools"** pane is displayed on the right side of the selected page. If not, find the **"Tools"** menu in the upper-right corner of the main content area, expand it, and select the **"move to sidebar"** option.
 
-    ![Expand tools pane](mare-nostrum-thesaurus/expand-tools-pane.png)
+    ![Expand tools pane](mare-nostrum-thesaurus-management/expand-tools-pane.png)
 
 3. In the **"Actions"** section of the **"Tools"** pane, select **"Delete"**.
 
-    ![Delete item button](mare-nostrum-thesaurus/delete-item-button.png)
+    ![Delete item button](mare-nostrum-thesaurus-management/delete-item-button.png)
 
 4. If needed, select a deletion reason from the dropdown menu and provide additional details in the text field (if not, leave the default values). Then, click **"Delete page"** to remove the item from the Thesaurus.
 
-    ![Delete page](mare-nostrum-thesaurus/delete-page.png)
+    ![Delete page](mare-nostrum-thesaurus-management/delete-page.png)
 
 5. After deletion, a confirmation message will be displayed.
 
-    ![Confirmation message](mare-nostrum-thesaurus/deletion-confirmation.png)
+    ![Confirmation message](mare-nostrum-thesaurus-management/deletion-confirmation.png)
