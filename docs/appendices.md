@@ -6,7 +6,7 @@ In this section, you can find useful information about:
 
 - [Division of responsibilities between components](#division-of-responsibilities-between-components)
 
-- [Explanation of terms used in this documentation](#explanation-of-terms-used-in-this-documentation)
+- [Key Terms and Definitions](#key-terms-and-definitions)
 
 - [Object feature storage structure](#object-feature-storage-structure)
 
@@ -53,7 +53,17 @@ The table below presents a summary of the division of responsibilities for the t
 
 ---
 
-## Explanation of terms used in this documentation
+## Key Terms and Definitions
+
+![Terms Visualization](appendices/terms-visualization.png)
+
+**Item** - a thing, entity or concept. It can be an object, a person, an event, a location, a work of art, or an abstract concept. Items are designated by unique identifiers starting with the letter **"Q"** followed by a positive integer.
+
+**Label** - the primary name of an item in a given language. It provides the essential information needed to identify the topic of the item. Labels do not have to be unique.
+
+**Description** - a short phrase intended to disambiguate items that have identical or similar labels. While descriptions do not need to be unique on their own, two items cannot share both the same label and the same description.
+
+**Alias** - an alternative name for the same item in a given language. It can be a synonym, colloquial name, abbreviation, or historical name. Aliases improve the searchability of items within the database.
 
 ---
 
