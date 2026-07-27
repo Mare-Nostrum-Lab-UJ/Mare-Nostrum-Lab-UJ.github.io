@@ -14,8 +14,58 @@ To access the code repository visit [Mare Nostrum LAB GitLab](https://gitlab.cen
 
 1. Visit `recogito.mn.cenagis.edu.pl` website or click [here](https://recogito.mn.cenagis.edu.pl/en/sign-in).
 
-2. Provide your **Username** and **Password**, then click **"Sign In"** button.
+1. Provide your **Username** and **Password**, then click **"Sign In"** button.
 
     ![Sign in](quickstart/sign-in.png)
 
 ---
+
+### Create New Project
+
+
+
+---
+
+### Annotate TEI Texts
+
+
+
+---
+
+### Annotate IIIF Images
+
+
+
+---
+
+### Annotate PDF Files
+
+
+
+---
+
+### Export annotations
+
+
+
+
+---
+
+### Enable Plugin to Your Project
+
+???+ note "Plugins availability"
+    Note that, plugins are available per project. It means that you need to turn them on in every project independently.
+
+1. To enable a plugin, open a project as a **Project Admin**.
+
+1. Go to **"Project Settings"**, then **"Plugins"** and click **"Browse Available Plugins"**.
+
+1. As a result, compiled plugins (GeoTagger and Mare Nostrum LAB plugin) will be listed.
+
+1. Enable intended plugins.
+
+1. Visit your project and verify that functions provided by the plugin are available.
+
+---
+
+### Mare Nostrum LAB plugin
