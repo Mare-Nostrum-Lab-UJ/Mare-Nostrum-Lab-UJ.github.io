@@ -1,6 +1,6 @@
 # Thesaurus Management Documentation
 
-To access the code repository visit [Mare Nostrum LAB GitHub](https://github.com/Mare-Nostrum-Lab-UJ) (currently not committed).
+To access the code repository visit [Mare Nostrum LAB GitLab](https://gitlab.cenagis.edu.pl/uavgeolab/mare-nostrum/thesaurus).
 
 ---
 
