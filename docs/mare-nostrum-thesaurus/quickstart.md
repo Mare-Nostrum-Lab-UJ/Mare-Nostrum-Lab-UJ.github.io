@@ -54,20 +54,20 @@ To access the code repository visit [Mare Nostrum LAB GitHub](https://github.com
         
         **You can modify:**
 
-        - Descriptive Label
-        - Item Description
-        - Aliases/alternative names
+        - [Descriptive Label](#elements-of-the-item-page)
+        - [Item Description](#elements-of-the-item-page)
+        - [Aliases/alternative names](#elements-of-the-item-page)
         - Labels, Descriptions and Aliases in different languages
 
             _(available: English (EN), Polish (PL), Greek (EL), German (DE), French (FR))_
 
-        - Properties of an Item:
+        - [Properties of an Item](#elements-of-the-item-page):
             - To modify content of existing property use second "**"edit"** button with pencil icon.
             - To add new property, select **"add statements"** with plus icon, choose [desired property](https://pac.cenagis.edu.pl/wiki/Special:ListProperties).
 
         **You cannot modify:**
         
-        - Item Identifier (Q followed by a number).
+        - [Item Identifier](#elements-of-the-item-page) (Q followed by a number).
 
 ---
 
@@ -106,7 +106,7 @@ To access the code repository visit [Mare Nostrum LAB GitHub](https://github.com
 
 ### Downloading Content
 
-1. [Browse Thesaurus](#browsing-thesaurus) to find the desired subjects.
+1. [Browse Thesaurus](#browsing-thesaurus) to find items of interest.
 
 2. Select the checkboxes next to them.
 
@@ -126,4 +126,4 @@ To access the code repository visit [Mare Nostrum LAB GitHub](https://github.com
 
 ### Elements of the Item page
 
-![alt text](quickstart/elements-of-page.png)
+![Page Elemenets](quickstart/elements-of-page.png)

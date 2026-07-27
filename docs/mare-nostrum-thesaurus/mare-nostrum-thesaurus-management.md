@@ -120,7 +120,7 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 
     ![Add statement elements](mare-nostrum-thesaurus-management/add-statement-elements.png)
 
-1. After saving the statement, you can assign another value to it ("add value") or create a new statement poining to the item (**"add statement"**).
+1. After saving the statement, you can assign another value to it (**"add value"**) or create a new statement poining to the item (**"add statement"**).
 
     ![Further connections](mare-nostrum-thesaurus-management/add-value-add-statement.png)
 
@@ -172,3 +172,21 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 5. After deletion, a confirmation message will be displayed.
 
     ![Confirmation message](mare-nostrum-thesaurus-management/deletion-confirmation.png)
+
+## Downloading Content
+
+1. [Search dictionary](#displaying-and-searching-hierarchical-data) to find items of interest.
+
+2. Select the checkboxes next to them.
+
+    ???+ note
+        To select all values, check the parent item.
+
+    ![Select checkboxes](mare-nostrum-thesaurus-management/select-checkboxes.png)
+
+3. Move to the top of the page and click **"Download selected as Arches format"**.
+
+    ???+ note
+        As a result, a `wikidata_export.rdf` file will be downloaded. You can import it to Arches.
+
+    ![Download selected as Arches format](mare-nostrum-thesaurus-management/download-selected-as-arches-format.png)

@@ -1,6 +1,6 @@
 # Creating a New Record in the Thesaurus - Cradle
 
-Cradle is a form-based tool for adding new items to the Mare Nostrum Thesaurus dictionaries. Use it when you need to create a record in a specific dictionary (vessel part, provenance, etc.).
+Cradle is a form-based tool for adding new items to the Mare Nostrum Thesaurus dictionaries. Use it when you need to create a record in a specific dictionary (e.g., vessel part, provenance, etc.).
 
 ---
 

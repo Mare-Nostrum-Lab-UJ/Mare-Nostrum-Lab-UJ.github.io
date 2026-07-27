@@ -2,23 +2,23 @@
 
 In this section, you can find useful information about:
 
-- [Thesaurus Management System components](#thesaurus-management-system-components)
+- [Thesaurus Management System Components](#thesaurus-management-system-components)
 
-- [Division of responsibilities between components](#division-of-responsibilities-between-components)
+- [Division of Responsibilities Between Components](#division-of-responsibilities-between-components)
 
 - [Key Terms and Definitions](#key-terms-and-definitions)
 
-- [Object feature storage structure](#object-feature-storage-structure)
+- [Object Feature Storage Structure](#object-feature-storage-structure)
 
-- [Properties in hierarchical dictionaries](#properties-in-hierarchical-dictionaries)
+- [Properties in Hierarchical Dictionaries](#properties-in-hierarchical-dictionaries)
 
-- [Inverse properties](#inverse-properties)
+- [Inverse Properties](#inverse-properties)
 
-- [Important design decisions regarding data modeling](#important-design-decisions-regarding-data-modeling)
+- [Important Design Decisions Regarding Data Modeling](#important-design-decisions-regarding-data-modeling)
 
 ---
 
-## Thesaurus Management System components
+## Thesaurus Management System Components
 
 Dictionary management is provided through four complementary components (click to visit):
 
@@ -132,15 +132,18 @@ The table below presents the properties used in the Mare Nostrum Thesaurus dicti
     These dictionaries were modeled exclusively using **[subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2)**, where the parent item represents the dictionary itself and the child item represents a specific dictionary value.
 
 1. **Vessel Part, Harris Matrix Relationships, Trench Parameters, Visual Item Metadata, Linguistic Object Metadata**
+    
     These dictionaries were modeled using **[subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2)** as hierarchical structures. The parent item represents the dictionary, the first-level child item represents a general "family" of concepts (e.g., **"lower part"**), and the second-level child item represents a specific type (e.g., **"base"**, **"sherd"**).
 
     ???+ note
         This approach does not exclude adding a standalone item without a "concept family" at the first child level (e.g., **"almost complete"**).
 
 1. **Provenance Dictionary**
+    
     This dictionary was modeled using **[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)** on every level of "concept family" (e.g., **"Asia Minor"** is part of **"provenance"** and **"Phocaea"** is part of **"Asia Minor"**).
 
 1. **Chronology Dictionary**
+    
     This dictionary was modeled using **[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)** similarly to point 3. However, it requires distinguishing between two conceptual meanings:
     
     - Parts within a single period (e.g., **"ER I"**, **"ER II"**, **"ER III"** as parts of **"ER"**)
