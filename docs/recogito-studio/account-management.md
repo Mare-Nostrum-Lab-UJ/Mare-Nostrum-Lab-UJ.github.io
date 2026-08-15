@@ -51,3 +51,34 @@ This section provides information on **logging in to the Recogito Studio MN acco
 
     ![Personal data](account-management/personal-data.png)
 
+---
+
+## Inviting New Users
+
+???+ note "User priviledges"
+    To invite new users, you need to have `Admin` organization role.
+
+1. Click on your profile and go to the **"Users"** section.
+
+    ![Users section](account-management/profile-users.png)
+
+1. Press the **"Invite User"** button, provide the email you want to invite to the organization, and send the invitation.
+
+    ![Invite User window](account-management/invite-new-user.png)
+
+1. Further information for the invited user is provided in the invitation email.
+
+---
+
+## Managing Users and Their Priviledges
+
+???+ note "User priviledges"
+    To manage users, you need to have `Admin` organization role.
+
+1. Click on your profile and go to the **"Users"** section.
+
+    ![Users section](account-management/profile-users.png)
+
+1. Here, you can inspect information about users, such as First, Last and Display Name, Email, Last Sign In, and User ID. Moreover, you can delete users from the organization and change their [Access Level]().
+
+    ![User Management section](account-management/user-management.png)
