@@ -199,3 +199,40 @@ This section provides information on:
     ![Change location](main-activities/change-location-window.png)
 
 ---
+
+## Assignments
+
+**Assignments** can be distributed by the `Project Admins` to `Project Students` and assigned with specific tasks. 
+
+### Creating an Assignment
+
+1. While creating a project, select `Project Type` as `Assignments`. If you omitted this part, go to project settings and set this variable manually. Remember to save the changes.
+
+    ![Project Type - Assignments](project-type-assignments.png)
+
+1. (Optional) If you haven't done it yet, go to **"Users"** and invite the requested group of people as `Students`.
+
+    ![Invite Users](main-activities/project-students.png)
+
+1. Switch to the **"Assignments"** tab and click the **"Add Assignment"** button. Then, follow the four steps of creation, verify them as a fifth step, and create an assignment.
+
+    ![Steps of assignment creation](create-assignment.png)
+
+---
+
+### Fulfilling an Assignment
+
+1. (Optional) If you haven't done it yet, join to the project via link, email invitation, or inside Recogito Studio.
+
+    ![Join project](main-activities/join-project.png)
+
+1. Go to **"Shared with me"** tab and find project you have joined.
+
+    ???+ note
+        If you have no assignments, the Project will appear from your perspective.
+
+    ![Shared with me](main-activities/shared-with-me.png)
+
+1. Open the documents and fulfill the assignments.
+
+    ![Fulfill the assignment](main-activities/fulfill-assignment.png)
