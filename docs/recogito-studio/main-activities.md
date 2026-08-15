@@ -8,7 +8,10 @@ This section provides information on:
 - creating a group,
 - annotating TEI texts or PDF documents,
 - annotating IIIF, JPG or PNG images,
-- installing Geotagger plugin in your project.
+- installing Geotagger plugin in your project,
+- using Geotagger plugin,
+- creating an assignment,
+- fulfilling an assignment.
 
 ---
 
@@ -114,3 +117,63 @@ This section provides information on:
     ![Add project to group](main-activities/add-project-to-group.png)
 
 ---
+
+## Annotate TEI Texts and PDF Files
+
+???+ note "Inspect annotations"
+    You can inspect existing annotations by opening a dedicated pane on the right side of the page.
+
+1. Choose and open a TEI or PDF document.
+
+1. Mark the pieces of text you want to annotate, provide content for the annotation, and save them.
+
+    ???+ note
+        You can add tags to create thematic groups for the annotations.
+
+    ???+ note
+        You can add Web URL links, Image URL links and YouTube links to your annotation.
+
+    ![TEI/PDF annotation](main-activities/text-annotation.png)
+
+---
+
+## Annotate IIIF, JPG and PNG Images
+
+???+ note "Inspect annotations"
+    You can inspect existing annotations by opening a dedicated pane on the right side of the page.
+
+1. Choose and open a IIIF, JPG or PNG image.
+
+1. Select the rectangular or multiangular marking mode, outline the elements of interest, provide annotation contents, and save.
+
+    ???+ note
+        You can add tags to create thematic groups for the annotations.
+
+    ???+ note
+        You can add Web URL links, Image URL links and YouTube links to your annotation.
+
+    ![Image annotation](main-activities/image-annotation.png)
+
+---
+
+## Install Geotagger Plugin in Your Project
+
+???+ note "Plugins availability"
+    Note that plugins are available per project. This means you need to enable them in each project independently.
+
+1. To enable a plugin, open a project as a **Project Admin**.
+
+1. Go to **"Settings"**.
+
+    ![Project Settings](main-activities/project-settings.png)
+
+1. Next, press the **"Plugins"** tab, click the **"Browse Available Plugins"** button and install the listed plugin.
+
+    ![Install Plugin](main-activities/install-plugin.png)
+
+1. Add gazetteers and save the settings.
+
+    ???+ note "Plugin limitations"
+        Unfortunatelly, the Core Data gazetteer does not work properly. Including it in your project may cause plugin instabilities.
+
+    ![Add Gazetteers](main-activities/add-gazetteers.png)
