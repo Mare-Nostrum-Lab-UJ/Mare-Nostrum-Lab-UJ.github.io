@@ -49,6 +49,18 @@ Recogito natively has two permission levels:
 
 ## Annotating TEI Documents with Images
 
+To successfully render images within a TEI text, the document must reference images via accessible Web URLs rather than local paths. If paths are hardcoded, Recogito Studio will fail to load them, preventing the images from displaying.
+
 ---
 
 ## Tagging Vocabulary
+
+You can pre-define a list of tags that will be included in the document by following the steps below:
+
+1. Open a project, go to the **"Documents"** tab, and click the **"Settings"** button.
+
+    ![Settings button](appendices/settings-button.png)
+
+2. Go to the **"Tagging"** tab, provide your list of tags, click **"Add to Vocabulary"**, customize the tags, and save the changes.
+
+    ![Tagging Vocabulary](appendices/tagging-vocabulary.png)
