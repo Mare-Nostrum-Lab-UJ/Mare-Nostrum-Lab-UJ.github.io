@@ -1,6 +1,7 @@
 # Main Activities
 
 This section provides information on:
+
 - creating a new project,
 - adding a new document,
 - modifying document metadata, 
@@ -96,5 +97,20 @@ This section provides information on:
 
     ???+ note "Make Public / Make Private"
         This option allows the user to change document accessibility. If status is `Private`, only users inside a specific project can see this document. If status is `Public`, any logged-in user can access this file via the **"All Documents"** section.
+
+---
+
+## Create a Project Group
+
+???+ note "Groups"
+    A **Group** is a dedicated tool allowing users to thematically aggregate projects (e.g., by source, year, or place).
+
+1. On the main page, click the **"+"** button next to the **"Groups"** section, provide a name, and click the **"Create"** button.
+
+    ![Create Groups](main-activities/create-group.png)
+
+1. Go to the created group and add a project. You can select from existing or create a new project that will be assigned to that group.
+
+    ![Add project to group](main-activities/add-project-to-group.png)
 
 ---
