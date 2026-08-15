@@ -41,6 +41,7 @@ nav:
     - Quick Start: recogito-studio/quickstart.md
     - Account Management: recogito-studio/account-management.md
     - Main Activities: recogito-studio/main-activities.md
+    - Appendices: recogito-studio/appendices.md
     
 markdown_extensions:
   - attr_list

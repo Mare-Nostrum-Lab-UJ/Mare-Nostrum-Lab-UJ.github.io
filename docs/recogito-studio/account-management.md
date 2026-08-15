@@ -79,6 +79,6 @@ This section provides information on **logging in to the Recogito Studio MN acco
 
     ![Users section](account-management/profile-users.png)
 
-1. Here, you can inspect information about users, such as First, Last and Display Name, Email, Last Sign In, and User ID. Moreover, you can delete users from the organization and change their [Access Level]().
+1. Here, you can inspect information about users, such as First, Last and Display Name, Email, Last Sign In, and User ID. Moreover, you can delete users from the organization and change their [Access Level](appendices.md/#recogito-studio-roles).
 
     ![User Management section](account-management/user-management.png)

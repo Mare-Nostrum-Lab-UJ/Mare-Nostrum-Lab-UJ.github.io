@@ -23,7 +23,7 @@ To access the code repository visit [Mare Nostrum LAB GitLab](https://gitlab.cen
 ### Create New Project
 
 ???+ note "User priviledges"
-    To create a new project, you need to have a proper organization role, which means having a `Professor` or `Admin` role. Further information can be found here.
+    To create a new project, you need to have a proper organization role, which means having a `Professor` or `Admin` role. Further information can be found [here](appendices.md/#recogito-studio-roles).
 
 1. [Login to Recogito Studio](#login-to-recogito-studio).
 

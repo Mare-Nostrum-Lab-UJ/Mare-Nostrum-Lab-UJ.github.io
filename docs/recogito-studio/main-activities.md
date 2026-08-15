@@ -208,7 +208,7 @@ This section provides information on:
 
 1. While creating a project, select `Project Type` as `Assignments`. If you omitted this part, go to project settings and set this variable manually. Remember to save the changes.
 
-    ![Project Type - Assignments](project-type-assignments.png)
+    ![Project Type - Assignments](main-activities/project-type-assignments.png)
 
 1. (Optional) If you haven't done it yet, go to **"Users"** and invite the requested group of people as `Students`.
 
@@ -216,7 +216,7 @@ This section provides information on:
 
 1. Switch to the **"Assignments"** tab and click the **"Add Assignment"** button. Then, follow the four steps of creation, verify them as a fifth step, and create an assignment.
 
-    ![Steps of assignment creation](create-assignment.png)
+    ![Steps of assignment creation](main-activities/create-assignment.png)
 
 ---
 
