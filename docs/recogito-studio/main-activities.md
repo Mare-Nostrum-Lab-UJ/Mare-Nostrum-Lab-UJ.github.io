@@ -44,3 +44,25 @@ This section provides information on:
 
 ---
 
+## Add New Document
+
+1. [Create](#create-new-project) or open a project.
+
+1. Press the **"Add Document"** button in the top right corner.
+
+    ![Add Document button](main-activities/add-document-button.png)
+
+1. Press the **"Import"** button and select a file from your device or provide a IIIF manifest.
+
+    ![Import Document button](main-activities/import-options.png)
+
+1. (Optional) Go to the **"All documents"** section and select documents of interest from the list of publicly available ones across the organization.
+
+    ![All Documents section](main-activities/public-documents.png)
+
+1. Wait for processing, which ends with a confirmation message and a new document object.
+
+    ???+ note
+        To inspect the document from the adding panel, you need to refresh the page by hand.
+
+    ![Import ended with success](main-activities/successful-import.png)
