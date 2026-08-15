@@ -76,45 +76,75 @@ To access the code repository visit [Mare Nostrum LAB GitLab](https://gitlab.cen
 
     ![Import ended with success](quickstart/successful-import.png)
 
-### Annotate TEI Texts
+---
 
+### Annotate TEI Texts and PDF Files
 
+???+ note "Inspect annotations"
+    You can inspect existing annotations by opening a dedicated pane on the right side of the page.
+
+1. Choose and open a TEI or PDF document.
+
+1. Mark the pieces of text you want to annotate, provide content for the annotation, and save them.
+
+    ???+ note
+        You can add tags to create thematic groups for the annotations.
+
+    ???+ note
+        You can add Web URL links, Image URL links and YouTube links to your annotation.
+
+    ![TEI/PDF annotation](quickstart/text-annotation.png)
 
 ---
 
-### Annotate IIIF Images
+### Annotate IIIF, JPG and PNG Images
 
+???+ note "Inspect annotations"
+    You can inspect existing annotations by opening a dedicated pane on the right side of the page.
 
+1. Choose and open a IIIF, JPG or PNG image.
+
+1. Select the rectangular or multiangular marking mode, outline the elements of interest, provide annotation contents, and save.
+
+    ???+ note
+        You can add tags to create thematic groups for the annotations.
+
+    ???+ note
+        You can add Web URL links, Image URL links and YouTube links to your annotation.
+
+    ![Image annotation](quickstart/image-annotation.png)
 
 ---
 
-### Annotate PDF Files
-
-
-
----
-
-### Export annotations
-
-
-
-
----
-
-### Enable Plugin to Your Project
+### Add Geotagger Plugin to Your Project
 
 ???+ note "Plugins availability"
-    Note that, plugins are available per project. It means that you need to turn them on in every project independently.
+    Note that plugins are available per project. This means you need to enable them in each project independently.
 
 1. To enable a plugin, open a project as a **Project Admin**.
 
-1. Go to **"Project Settings"**, then **"Plugins"** and click **"Browse Available Plugins"**.
+1. Go to **"Settings"**.
 
-1. As a result, compiled plugins (GeoTagger and Mare Nostrum LAB plugin) will be listed.
+    ![Project Settings](quickstart/project-settings.png)
 
-1. Enable intended plugins.
+1. Next, press the **"Plugins"** tab, click the **"Browse Available Plugins"** button and install the listed plugin.
 
-1. Visit your project and verify that functions provided by the plugin are available.
+    ![Install Plugin](quickstart/install-plugin.png)
+
+1. Add gazetteers and save the settings.
+
+    ???+ note "Plugin limitations"
+        Unfortunatelly, the Core Data gazetteer does not work properly. Including it in your project may cause plugin instabilities.
+
+    ![Add Gazetteers](quickstart/add-gazetteers.png)
+
+1. Verify the plugin installation by visiting the project and trying to add an annotation with a geotag.
+
+    ![Add Geo-Tag](quickstart/add-geotag.png)
+
+1. After providing a string of characters, you can confirm automatically suggested tag or change it in the dedicated window.
+
+    ![Confirm Geo-Tag](quickstart/confirm-geotag.png)
 
 ---
 
