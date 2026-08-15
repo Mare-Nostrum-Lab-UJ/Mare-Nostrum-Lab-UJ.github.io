@@ -156,7 +156,9 @@ This section provides information on:
 
 ---
 
-## Install Geotagger Plugin in Your Project
+## Geotagger Plugin
+
+### Install Plugin in Your Project
 
 ???+ note "Plugins availability"
     Note that plugins are available per project. This means you need to enable them in each project independently.
@@ -167,7 +169,7 @@ This section provides information on:
 
     ![Project Settings](main-activities/project-settings.png)
 
-1. Next, press the **"Plugins"** tab, click the **"Browse Available Plugins"** button and install the listed plugin.
+1. Next, press the **"Plugins"** tab, click the **"Browse Available Plugins"** button, and install the listed plugin.
 
     ![Install Plugin](main-activities/install-plugin.png)
 
@@ -177,3 +179,23 @@ This section provides information on:
         Unfortunatelly, the Core Data gazetteer does not work properly. Including it in your project may cause plugin instabilities.
 
     ![Add Gazetteers](main-activities/add-gazetteers.png)
+
+---
+
+### Annotate with Location
+
+1. [Install plugin in your project](#install-plugin-in-your-project).
+
+1. Mark the text or part of the image and click the **"Add Geo-Tag"** button.
+
+    ![Add Geo-Tag](main-activities/add-geotag-button.png)
+
+1. Provide a fragment of text. The plugin will automatically match the sentence with the closest tag in the gazetteers. If you are satisfied you can confirm it.
+
+    ![Proposed location](main-activities/proposed-location.png)
+
+1. (Optional) If you are not satisfied with the automatic proposition, click **"Change"**, type your text in the dedicated field and choose from displayed list or from the map points.
+
+    ![Change location](main-activities/change-location-window.png)
+
+---
