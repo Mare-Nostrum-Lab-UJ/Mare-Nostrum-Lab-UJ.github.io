@@ -39,6 +39,7 @@ nav:
     - Quick Start: ontology-viewer/quickstart.md
   - Recogito Studio:
     - Quick Start: recogito-studio/quickstart.md
+    - Account Management: recogito-studio/account-management.md
     
 markdown_extensions:
   - attr_list
