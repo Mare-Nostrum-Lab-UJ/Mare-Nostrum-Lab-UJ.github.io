@@ -10,27 +10,31 @@ This section is dedicated to explain all specific procedures which allow searchi
 
 The Mare Nostrum Thesaurus project offers the following data dictionaries (click to explore):
 
-- [**amphora type**](https://pac.cenagis.edu.pl/wiki/AmphoraTypeDictionary) - hierarchical Mediterranean amphora types
+- [**pottery types - amphorae**](https://thesaurus.mn.cenagis.edu.pl/wiki/Pottery_types_-_amphorae_Dictionary) - Mediterranean amphora types
 
-- [**vessel form**](https://pac.cenagis.edu.pl/wiki/VesselFormDictionary) - general morphological categories
+- [**pottery types - lamps**](https://thesaurus.mn.cenagis.edu.pl/wiki/Pottery_types_-_lamps_Dictionary) - Mediterranean lamp types
 
-- [**vessel part**](https://pac.cenagis.edu.pl/wiki/VesselPartDictionary) - preserved component part of a vessel
+- [**pottery types - table ware**](https://thesaurus.mn.cenagis.edu.pl/wiki/Pottery_types_-_table_ware_Dictionary) - Mediterranean table ware types
 
-- [**sub-category**](https://pac.cenagis.edu.pl/wiki/Sub-categoryDictionary) - detailed product specification (primarily refers to the ceramic fabric/paste, which sometimes implies a specific repertoire of vessel types)
+- [**pottery - morphology**](https://thesaurus.mn.cenagis.edu.pl/wiki/Pottery_-_morphology_Dictionary) - geometric characteristics of fragments
 
-- [**provenance**](https://pac.cenagis.edu.pl/wiki/ProvenanceDictionary) - hierarchical dictionary of vessel production sites
+- [**pottery - vessel form**](https://thesaurus.mn.cenagis.edu.pl/wiki/Pottery_-_vessel_form_Dictionary) - general morphological categories
 
-- [**chronology**](https://pac.cenagis.edu.pl/wiki/ChronologyDictionary) - hierarchical timeframes
+- [**pottery - vessel part**](https://thesaurus.mn.cenagis.edu.pl/wiki/Pottery_-_vessel_part_Dictionary) - preserved component part of a vessel
 
-- [**morphology**](https://pac.cenagis.edu.pl/wiki/MorphologyDictionary) - geometric characteristics of fragments
+- [**pottery - sub-category**](https://thesaurus.mn.cenagis.edu.pl/wiki/Pottery_-_sub-category_Dictionary) - detailed product specification (primarily refers to the ceramic fabric/paste, which sometimes implies a specific repertoire of vessel types)
 
-- [**state of preservation**](https://pac.cenagis.edu.pl/wiki/StateOfPreservationDictionary) - state of preservation of a found fragment
+- [**pottery - state of preservation**](https://thesaurus.mn.cenagis.edu.pl/wiki/Pottery_-_state_of_preservation_Dictionary) - state of preservation of a found fragment
 
-- [**surface treatment**](https://pac.cenagis.edu.pl/wiki/SurfaceTreatmentDictionary) - type of exterior wall finishing
+- [**pottery - surface treatment**](https://thesaurus.mn.cenagis.edu.pl/wiki/Pottery_-_surface_treatment_Dictionary) - type of exterior wall finishing
 
-- [**Harris matrix relationships**](https://pac.cenagis.edu.pl/wiki/HarrisMatrixRelationshipsDictionary) - stratigraphic relationships according to the Harris matrix (describing chronological and spatial links between stratigraphic units)
+- [**provenance**](https://thesaurus.mn.cenagis.edu.pl/wiki/ProvenanceDictionary) - hierarchical dictionary of vessel production sites
 
-- [**trench parameters**](https://pac.cenagis.edu.pl/wiki/TrenchParametersDictionary) - parameters defining the physical, material, and methodological characteristics of an archaeological trench. This includes:
+- [**chronology**](https://thesaurus.mn.cenagis.edu.pl/wiki/ChronologyDictionary) - hierarchical timeframes
+
+- [**Harris matrix relationships**](https://thesaurus.mn.cenagis.edu.pl/wiki/HarrisMatrixRelationshipsDictionary) - stratigraphic relationships according to the Harris matrix (describing chronological and spatial links between stratigraphic units)
+
+- [**trench parameters**](https://thesaurus.mn.cenagis.edu.pl/wiki/TrenchParametersDictionary) - parameters defining the physical, material, and methodological characteristics of an archaeological trench. This includes:
 
     - **archaeological remains** - types of recovered artifacts and materials
 
@@ -38,9 +42,9 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 
     - **excavation procedures** - methods applied during the excavation of the trench
 
-- [**visual item metadata**](https://pac.cenagis.edu.pl/wiki/VisualItemMetadataDictionary) - visual object metadata, regarding drawing and image
+- [**visual item metadata**](https://thesaurus.mn.cenagis.edu.pl/wiki/VisualItemMetadataDictionary) - visual object metadata, regarding drawing and image
 
-- [**linguistic object metadata**](https://pac.cenagis.edu.pl/wiki/LinguisticObjectMetadataDictionary) - textual and linguistic attributes assigned to an object
+- [**linguistic object metadata**](https://thesaurus.mn.cenagis.edu.pl/wiki/LinguisticObjectMetadataDictionary) - textual and linguistic attributes assigned to an object
 
 ---
 
@@ -110,7 +114,7 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
         ???+ note "Matching types"
             Ensure that the added value type matches the property type.
 
-    - *2a (optional) - Add a **"reference"** indicating the source of the information. Suggested property: [described at url (P29)](https://pac.cenagis.edu.pl/wiki/Property:P29).*
+    - *2a (optional) - Add a **"reference"** indicating the source of the information. Suggested property: [described at url (P29)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P29).*
     - *2b (optional) - Assign a value to the selected property.* 
         
         ???+ note "Matching types"
@@ -187,6 +191,6 @@ The Mare Nostrum Thesaurus project offers the following data dictionaries (click
 3. Move to the top of the page and click **"Download selected as Arches format"**.
 
     ???+ note
-        As a result, a `wikidata_export.rdf` file will be downloaded. You can import it to Arches.
+        As a result, a `selected_dictionary_name.rdf` file will be downloaded. You can import it to Arches.
 
     ![Download selected as Arches format](mare-nostrum-thesaurus-management/download-selected-as-arches-format.png)

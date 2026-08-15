@@ -6,7 +6,7 @@ Cradle is a form-based tool for adding new items to the Mare Nostrum Thesaurus d
 
 ## Opening Cradle from the Main Page
 
-1. Go to the [Thesaurus Main Page](https://pac.cenagis.edu.pl/wiki).
+1. Go to the [Thesaurus Main Page](https://thesaurus.mn.cenagis.edu.pl/wiki).
 1. In the **Dictionaries** section, select a **New [dictionary name]** link (for example, **New amphora type**, **New vessel part**, etc.).
 
     ![Main Page Dictionaries section with New form links](cradle/mainpage.png)

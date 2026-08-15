@@ -8,7 +8,7 @@ To access the code repository visit [Mare Nostrum LAB GitLab](https://gitlab.cen
 
 ### Browsing Thesaurus
 
-1. Go to the [Thesaurus](https://pac.cenagis.edu.pl/wiki) main page.
+1. Go to the [Thesaurus](https://thesaurus.mn.cenagis.edu.pl/wiki) main page.
 1. Click on the desired dictionary (e.g., Provenance).
 
     ![Select dictionary](quickstart/select-dictionary.png)
@@ -63,7 +63,7 @@ To access the code repository visit [Mare Nostrum LAB GitLab](https://gitlab.cen
 
         - [Properties of an Item](#elements-of-the-item-page):
             - To modify content of existing property use second "**"edit"** button with pencil icon.
-            - To add new property, select **"add statements"** with plus icon, choose [desired property](https://pac.cenagis.edu.pl/wiki/Special:ListProperties).
+            - To add new property, select **"add statements"** with plus icon, choose [desired property](https://thesaurus.mn.cenagis.edu.pl/wiki/Special:ListProperties).
 
         **You cannot modify:**
         

@@ -22,19 +22,19 @@ In this section, you can find useful information about:
 
 Dictionary management is provided through four complementary components (click to visit):
 
-1. **[Mare Nostrum Thesaurus](https://pac.cenagis.edu.pl/wiki)** - a dictionary database that stores individual terms organized into thematic categories in a structured format.
+1. **[Mare Nostrum Thesaurus](https://thesaurus.mn.cenagis.edu.pl/wiki)** - a dictionary database that stores individual terms organized into thematic categories in a structured format.
 
     ![Mare Nostrum Thesaurus](appendices/mare-nostrum-logo.png){ width="100" style="display: block; margin: 0 auto;" }
 
-1. **[Cradle](https://pac.cenagis.edu.pl/tools/cradle/)** - a tool for adding new dictionary entries to Mare Nostrum Thesaurus.
+1. **[Cradle](https://thesaurus.mn.cenagis.edu.pl/tools/cradle/)** - a tool for adding new dictionary entries to Mare Nostrum Thesaurus.
 
     ![Cradle (Toolforge) logo](appendices/toolforge-logo.png){ width="100" style="display: block; margin: 0 auto;" }
 
-1. **[Wikibase Query Service (WBQS)](https://pac.cenagis.edu.pl/query/)** - a tool for advanced searching of Mare Nostrum Thesaurus using SPARQL queries.
+1. **[Wikibase Query Service (WBQS)](https://thesaurus.mn.cenagis.edu.pl/query/)** - a tool for advanced searching of Mare Nostrum Thesaurus using SPARQL queries.
 
     ![Wikibase Query Service logo](appendices/wbqs-logo.png){ width="100" style="display: block; margin: 0 auto;" }
 
-1. **[QuickStatements](https://pac.cenagis.edu.pl/tools/quickstatements/#/)** - a tool for batch editing and bulk importing data into Mare Nostrum Thesaurus.
+1. **[QuickStatements](https://thesaurus.mn.cenagis.edu.pl/tools/quickstatements/#/)** - a tool for batch editing and bulk importing data into Mare Nostrum Thesaurus.
 
     ![QuickStatements logo](appendices/qs-logo.png){ width="100" style="display: block; margin: 0 auto;" }
 
@@ -73,7 +73,7 @@ Data concerning items (Q) in Mare Nostrum Thesaurus is stored as triplets: item 
 
 - **Item** - indicates the identifier of the entity it refers to.
 
-- **Property** - defines a relationship or feature of the given item. Each property has an assigned data type that dictates what values can be entered. The list of available properties in the Mare Nostrum Thesaurus project is available [here](https://pac.cenagis.edu.pl/wiki/Special:ListProperties).
+- **Property** - defines a relationship or feature of the given item. Each property has an assigned data type that dictates what values can be entered. The list of available properties in the Mare Nostrum Thesaurus project is available [here](https://thesaurus.mn.cenagis.edu.pl/wiki/Special:ListProperties).
 
 - **Value** - represents the actual data associated with the item (it can be another item (Q), a string, a date and time, or geographic point coordinates in the WGS84 system, among others).
 
@@ -89,17 +89,17 @@ Figure below presents a graphical example of the feature storage structure.
 
 ## Properties in Hierarchical Dictionaries
 
-- **[subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2)** - indicates that one object is a subclass or subset of another. It sould not be confused with *instance of (P1)*.
+- **[subclass of (P2)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P2)** - indicates that one object is a subclass or subset of another. It sould not be confused with *instance of (P1)*.
 
     *Example: A volcano is a **subclass of** mountain; Mount Everest is an **instance of** mountain.*
 
-- **[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)** - indicates that one item is an integral part of another. This property is mainly used in the *provenance* and *chronology* dictionaries.
+- **[part of (P20)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P20)** - indicates that one item is an integral part of another. This property is mainly used in the *provenance* and *chronology* dictionaries.
 
 Additional properties used in the dictionaries, but **not displayed** in the hierarchical structure:
 
-- **[modified version of (P18)](https://pac.cenagis.edu.pl/wiki/Property:P18)** - indicates that one object is a modified version of another, yet the second object cannot be unambiguously considered identical to the first.
+- **[modified version of (P18)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P18)** - indicates that one object is a modified version of another, yet the second object cannot be unambiguously considered identical to the first.
 
-- **[said to be the same as (P17)](https://pac.cenagis.edu.pl/wiki/Property:P17)** - used when there is a need to add two independent items representing the same object under different names, provided the user does not want to declare the second entity as an alias of the first.
+- **[said to be the same as (P17)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P17)** - used when there is a need to add two independent items representing the same object under different names, provided the user does not want to declare the second entity as an alias of the first.
 
 ---
 
@@ -110,7 +110,7 @@ When manually adding items, it is good practice to add an inverse relationship p
 ???+ note "Adding a new Item with Cradle"
     Cradle is configured to automatically add a specific inverse property of the declared property.
 
-*Example: If you are adding the item **"beige"**, which is a [subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2) **"hierarchical color of the soil"**, you should also define the property [superclass of (P11)](https://pac.cenagis.edu.pl/wiki/Property:P11) **"beige"** for the **"hierarchical color of the soil"** item.*
+*Example: If you are adding the item **"beige"**, which is a [subclass of (P2)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P2) **"hierarchical color of the soil"**, you should also define the property [superclass of (P11)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P11) **"beige"** for the **"hierarchical color of the soil"** item.*
 
 ![Inverse Properties Example](appendices/inverse-properties.png)
 
@@ -118,10 +118,10 @@ The table below presents the properties used in the Mare Nostrum Thesaurus dicti
 
 | Property | Inverse | Occurrence |
 | :--- | :--- | :--- |
-| **[subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2)** | **[superclass of (P11)](https://pac.cenagis.edu.pl/wiki/Property:P11)** | all dictionaries excluding **"provenance"** and **"chronology"** |
-| **[modified version of (P18)](https://pac.cenagis.edu.pl/wiki/Property:P18)** | **[has modification(s) (P19)](https://pac.cenagis.edu.pl/wiki/Property:P19)** | mainly **"sub-category"** |
-| **[said to be the same as (P17)](https://pac.cenagis.edu.pl/wiki/Property:P17)** | **[said to be the same as (P17)](https://pac.cenagis.edu.pl/wiki/Property:P17)** | all dictionaries |
-| **[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)** | **[has part(s) (P21)](https://pac.cenagis.edu.pl/wiki/Property:P21)** | **"provenance"** and **"chronology"** |
+| **[subclass of (P2)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P2)** | **[superclass of (P11)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P11)** | all dictionaries excluding **"provenance"** and **"chronology"** |
+| **[modified version of (P18)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P18)** | **[has modification(s) (P19)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P19)** | mainly **"sub-category"** |
+| **[said to be the same as (P17)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P17)** | **[said to be the same as (P17)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P17)** | all dictionaries |
+| **[part of (P20)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P20)** | **[has part(s) (P21)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P21)** | **"provenance"** and **"chronology"** |
 
 ---
 
@@ -129,27 +129,27 @@ The table below presents the properties used in the Mare Nostrum Thesaurus dicti
 
 1. **Amphora Type, Vessel Form, Sub-category, Morphology, State of Preservation and Surface Treatment Dictionaries**
 
-    These dictionaries were modeled exclusively using **[subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2)**, where the parent item represents the dictionary itself and the child item represents a specific dictionary value.
+    These dictionaries were modeled exclusively using **[subclass of (P2)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P2)**, where the parent item represents the dictionary itself and the child item represents a specific dictionary value.
 
 1. **Vessel Part, Harris Matrix Relationships, Trench Parameters, Visual Item Metadata, Linguistic Object Metadata**
     
-    These dictionaries were modeled using **[subclass of (P2)](https://pac.cenagis.edu.pl/wiki/Property:P2)** as hierarchical structures. The parent item represents the dictionary, the first-level child item represents a general "family" of concepts (e.g., **"lower part"**), and the second-level child item represents a specific type (e.g., **"base"**, **"sherd"**).
+    These dictionaries were modeled using **[subclass of (P2)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P2)** as hierarchical structures. The parent item represents the dictionary, the first-level child item represents a general "family" of concepts (e.g., **"lower part"**), and the second-level child item represents a specific type (e.g., **"base"**, **"sherd"**).
 
     ???+ note
         This approach does not exclude adding a standalone item without a "concept family" at the first child level (e.g., **"almost complete"**).
 
 1. **Provenance Dictionary**
     
-    This dictionary was modeled using **[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)** on every level of "concept family" (e.g., **"Asia Minor"** is part of **"provenance"** and **"Phocaea"** is part of **"Asia Minor"**).
+    This dictionary was modeled using **[part of (P20)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P20)** on every level of "concept family" (e.g., **"Asia Minor"** is part of **"provenance"** and **"Phocaea"** is part of **"Asia Minor"**).
 
 1. **Chronology Dictionary**
     
-    This dictionary was modeled using **[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)** similarly to point 3. However, it requires distinguishing between two conceptual meanings:
+    This dictionary was modeled using **[part of (P20)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P20)** similarly to point 3. However, it requires distinguishing between two conceptual meanings:
     
     - Parts within a single period (e.g., **"ER I"**, **"ER II"**, **"ER III"** as parts of **"ER"**)
     - Parts of a period spanning two epochs (e.g., **"ER"** as part of **"LH/ER"**).
 
-    Both contexts use the same property (**[part of (P20)](https://pac.cenagis.edu.pl/wiki/Property:P20)**), though its semantic interpretation differs slightly.
+    Both contexts use the same property (**[part of (P20)](https://thesaurus.mn.cenagis.edu.pl/wiki/Property:P20)**), though its semantic interpretation differs slightly.
 
     The figure below provides a graphical exaplanation of the terms used in this section to describe hierarchy nesting levels.
 

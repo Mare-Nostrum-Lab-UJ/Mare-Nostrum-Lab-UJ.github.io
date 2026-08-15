@@ -9,7 +9,7 @@ This section provides information on **logging in to the Thesaurus account** and
 ???+ note "Login is required for some activities"
     Note that there are several actions (e.g., adding and editing contents) that require you to log in first.
 
-1. Find and select the **"Log in"** button at the top right corner or [click here](https://pac.cenagis.edu.pl/w/index.php?title=Special:UserLogin&returnto=Main+Page).
+1. Find and select the **"Log in"** button at the top right corner or [click here](https://thesaurus.mn.cenagis.edu.pl/w/index.php?title=Special:UserLogin).
 
     ![Log in button in the Main page](account-management/login-mainpage.png)
 
@@ -33,7 +33,7 @@ This section provides information on **logging in to the Thesaurus account** and
 
 1. [Log in to the account](#logging-in-to-the-account).
 
-1. Go to the **"Change Password"** option on the Main page or [click here](https://pac.cenagis.edu.pl/wiki/Special:ChangeCredentials/MediaWiki%5CAuth%5CPasswordAuthenticationRequest).
+1. Go to the **"Change Password"** option on the Main page or [click here](https://thesaurus.mn.cenagis.edu.pl/wiki/Special:ChangeCredentials/MediaWiki%5CAuth%5CPasswordAuthenticationRequest).
 
     ![Change password function](account-management/change-password-function.png)
 
