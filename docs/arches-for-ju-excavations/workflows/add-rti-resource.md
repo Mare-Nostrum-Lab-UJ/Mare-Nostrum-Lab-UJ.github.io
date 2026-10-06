@@ -12,8 +12,10 @@ The first step is to choose the existing parent resource to which you want to at
 *   **Select a Resource:** Click on the card of the resource you wish to use. 
 *   **Confirm Selection:** The chosen card will highlight to indicate it is selected as the target resource.
 
-> **[IMAGE PLACEHOLDER: Step 1 Select Resource]**
-> *Highlight suggestion: Draw a box around the search bar and highlight the selected resource card.*
+<details>
+  <summary>Show Screenshot Hint</summary>
+  <img src="/arches-for-ju-excavations/appendices/add-rti-resource/1.png" alt="Select Resource" />
+</details>
 
 ---
 
@@ -27,8 +29,10 @@ In this step, you will define the RTI asset's name and upload the required ZIP p
 *   **Processing:** The system will display a yellow warning banner stating: *"Processing ZIP, converting JPG files to COG TIFF..."*. Please wait while the system processes the heavy image files.
 *   **Confirmation:** Upon successful processing, a panel titled **"Generated IIIF planes"** will appear, displaying a table of all the processed layers, their source files, and their new IIIF service URLs.
 
-> **[IMAGE PLACEHOLDER: Step 2 Upload RTI Package]**
-> *Highlight suggestion: Highlight the "RTI name" input field, the file upload input, the "Upload RTI package" button, and the "Generated IIIF planes" table at the bottom.*
+<details>
+  <summary>Show Screenshot Hint</summary>
+  <img src="/arches-for-ju-excavations/appendices/add-rti-resource/2.png" alt="Upload RTI Package" />
+</details>
 
 ---
 
@@ -45,5 +49,7 @@ The final step allows you to fine-tune how the RTI is displayed in the viewer be
     4.  *If you make a mistake, click "Clear crop selection" to reset.*
 *   **Save Settings:** Once the rotation and crop are set to your liking, click the blue **"Save settings"** button at the bottom of the screen to finalize the workflow.
 
-> **[IMAGE PLACEHOLDER: Step 3 Adjust RTI View]**
-> *Highlight suggestion: Highlight the Rotation slider, the row of crop-related buttons ("Select crop", "Apply crop to rasters"), and the final "Save settings" button.*
+<details>
+  <summary>Show Screenshot Hint</summary>
+  <img src="/arches-for-ju-excavations/appendices/add-rti-resource/3.png" alt="Adjust RTI View" />
+</details>
